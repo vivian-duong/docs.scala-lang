@@ -14,7 +14,7 @@ next-page: case-classes
 
 
 
-A *companion object* in Scala is an `object` that’s declared in the same file as a `class`, and has the same name as the class. For instance, when the following code is saved in a file named *Pizza.scala*, the `Pizza` object is considered to be a companion object to the `Pizza` class:
+A *companion object* in Scala is an `object` that’s declared in the same file as a `class` or data type, eg `trait`, and has the same name as the class or data type. For instance, when the following code is saved in a file named *Pizza.scala*, the `Pizza` object is considered to be a companion object to the `Pizza` class:
 
 ```scala
 class Pizza {
